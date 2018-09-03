@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard"/>
+        <item
+            android:id="@+id/nav_purchase"
+            android:icon="@drawable/sales"
+            android:title="Purchase">
+
+            <menu>
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/report"
+            android:title="Purchase History"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/bill"
+            android:title="Billing"
+            />
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@drawable/location"
+            android:title="Address"/>
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/settings"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_lock"
+            android:title="Log out"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+                />
+         <!--   <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send"
+                /> -->
+        </menu>
+    </item>
+
+</menu>

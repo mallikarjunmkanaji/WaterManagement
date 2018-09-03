@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">WaterManagement</string>
+    <string name="title_activity_dash_board">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Water Management</string>
+    <string name="nav_header_subtitle">watermanagement@techkshetrainfo.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Profile Settings</string>
+    <string name="companyname"><u>Techkshetra info solutions pvt.ltd.</u></string>
+
+    <string name="contactthought">We don\'t end here Our list of web &amp; app Design and Developments solutions is broad and extensive. To meet your customised web &amp; app development needs, Contact Us. Our representative will get back to you shortly.</string>
+
+    <string name="compaddress"><u>Techkshetra info solutions pvt.ltd.</u>\n #1, 2nd Floor, 24th Main Road,
+8th cross, Sudarsanamma Arcade,
+JP Nagar 2nd phase, Bangalore-560078 </string>
+
+    <string name="clicklogin"><u>Click here to log in</u>.</string>
+    <string name="clickreg"><u>Click here to Register</u>.</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Validation error messages-->
+    <string name="username_error">Enter Valid user name</string>
+    <string name="email_error">Enter valid email</string>
+    <string name="emailpattern">[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+</string>
+    <string name="namepattern">[a-zA-Z0-9]</string>
+    <string name="confirm_password_error">password didn\'t match.</string>
+
+    <string name="internet_error_title">Internet Error</string>
+    <string name="internet_error">Please Check Your internet Connection</string>
+    <string name="empty_location">Location cannot be empty</string>
+    <string name="empty_field">Field Cannot be left empty</string>
+</resources>
